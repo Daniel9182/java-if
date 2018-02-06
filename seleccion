@@ -1,0 +1,29 @@
+
+package practicaif;
+import java.util.Scanner;
+public class practicaif {
+    
+    public static void main(String args[]){
+        Scanner entrada = new Scanner(System.in);
+                
+        int a;
+        
+        System.out.println("inserta una respuesta");
+        
+        System.out.println("1.elegiste la primer opcion \n2.elegiste la segunda opcion");
+        
+        a = entrada.nextInt();
+        
+            if (a%2==1)
+            {System.out.println("elegiste la opcion 1");}
+            
+                else
+            {
+                System.out.println("elegiste la opcion 2");
+            }
+                   
+                
+                
+        
+    }
+}
