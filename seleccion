@@ -14,7 +14,7 @@ public class practicaif {
         
         a = entrada.nextInt();
         
-            if (a==0)
+            if (a%2==0)
             {System.out.println("elegiste la opcion 1");}
             
                 else
